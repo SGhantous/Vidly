@@ -22,12 +22,12 @@ namespace Vidly.ViewModels
 
         [Display(Name = "Release Date")]
         [Required]        
-        public DateTime ReleaseDate { get; set; }
+        public DateTime? ReleaseDate { get; set; }
 
         [Display(Name = "Number In Stock")]
         [Range(1, 20)]
         [Required]        
-        public byte NumberInStock { get; set; }
+        public byte? NumberInStock { get; set; }
 
         public string Title
         {
