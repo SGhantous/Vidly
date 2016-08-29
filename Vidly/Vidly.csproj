@@ -294,6 +294,18 @@
     <Compile Include="Migrations\201608290255170_AddPhoneToApplicationUser.Designer.cs">
       <DependentUpon>201608290255170_AddPhoneToApplicationUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201608291857287_AddedRentalClass.cs" />
+    <Compile Include="Migrations\201608291857287_AddedRentalClass.Designer.cs">
+      <DependentUpon>201608291857287_AddedRentalClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201608291859291_AddedRentalClass1.cs" />
+    <Compile Include="Migrations\201608291859291_AddedRentalClass1.Designer.cs">
+      <DependentUpon>201608291859291_AddedRentalClass1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201608291901468_AddedRentalClassToDbContext.cs" />
+    <Compile Include="Migrations\201608291901468_AddedRentalClassToDbContext.Designer.cs">
+      <DependentUpon>201608291901468_AddedRentalClassToDbContext.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -304,6 +316,7 @@
     <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Models\Min18YearsIfAMember.cs" />
     <Compile Include="Models\Movie.cs" />
+    <Compile Include="Models\Rental.cs" />
     <Compile Include="Models\RoleName.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -616,6 +629,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201608290255170_AddPhoneToApplicationUser.resx">
       <DependentUpon>201608290255170_AddPhoneToApplicationUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201608291857287_AddedRentalClass.resx">
+      <DependentUpon>201608291857287_AddedRentalClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201608291859291_AddedRentalClass1.resx">
+      <DependentUpon>201608291859291_AddedRentalClass1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201608291901468_AddedRentalClassToDbContext.resx">
+      <DependentUpon>201608291901468_AddedRentalClassToDbContext.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
